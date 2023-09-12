@@ -1,0 +1,79 @@
+@media only screen and (max-width: 768px) {
+  body header {
+    padding: 1rem;
+    flex-direction: column;
+  }
+  body header .header-dropdown-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  body header .header-dropdown-group img {
+    height: 30px;
+    width: 100px;
+  }
+  body header .header-dropdown-group .header-dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body header .header-menu {
+    position: absolute;
+    z-index: 9999;
+    background-color: rgb(0, 54, 116);
+    width: 100%;
+    top: 48px;
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+  body header .header-menu.hidden {
+    display: none;
+  }
+  body header .header-menu a,
+  body header .header-menu #mode {
+    font-size: 1.4rem;
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  body main .section-1 {
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  body main .section-1 .section-1-container {
+    width: 100%;
+  }
+  body main .section-1 .section-1-container:hover {
+    transform: scale(1);
+  }
+  body main .section-2 {
+    padding: 1rem;
+  }
+  body main .section-2 .section-2-form-name {
+    flex-direction: column;
+  }
+  body main .section-2 .section-2-form-password {
+    flex-direction: column;
+  }
+  body footer {
+    padding: 4rem 1rem;
+  }
+  body footer .footer-group-1 {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 2rem;
+  }
+  body footer .footer-group-1 div {
+    margin-bottom: 1rem;
+  }
+  body footer .footer-group-2 {
+    margin-top: 2rem;
+  }
+  body #scrollToTop {
+    height: 40px;
+    width: 40px;
+  }
+  body #scrollToTop svg {
+    font-size: 1.7rem;
+  }
+}
